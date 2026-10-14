@@ -1,0 +1,7 @@
+imie = str(input("podaj imię: "))
+print(f"małymi literami: {imie.lower()}")
+print(f"liczba liter: {len(imie)}")
+print(f"pierwsza litera: {imie.upper()[0]}")
+print(f"ostatnia litera: {imie.upper()[-1]}")
+print(f"wielkimi literami: {imie.upper()}")
+print(f"trzy razy: {imie.title()}-{imie.title()}-{imie.title()}") 
